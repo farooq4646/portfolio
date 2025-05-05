@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background: #001f3f;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #0074D9, #7FDBFF);
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .parallax {
+    transform: translateZ(0);
+    will-change: transform;
+    transition: transform 0.4s ease;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 280px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #001f3f;
+    color: #fff;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+    
